@@ -6,7 +6,7 @@ import router from './router'
 import fastClick from 'fastclick'
 import 'styles/reset.css'
 import 'styles/border.css'
-import 'styles/iconfont.csss'
+import 'styles/iconfont.css'
 
 fastClick.attach(document.body)
 
