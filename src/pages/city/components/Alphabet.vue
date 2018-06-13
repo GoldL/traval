@@ -22,7 +22,9 @@ export default {
   },
   data () {
     return {
-      touchStatus: false
+      touchStatus: false,
+      startY: 0,
+      timer: null
     }
   },
   computed: {
@@ -34,6 +36,9 @@ export default {
       return letters
     }
   },
+  updated () {
+    this.startY = this.$refs['A'][0].offsetTop
+  },
   methods: {
     handleLetterClick (e) {
       this.$emit('change', e.target.innerText)
@@ -43,12 +48,16 @@ export default {
     },
     handleTouchMove (e) {
       if (this.touchStatus) {
-        let startY = this.$refs['A'][0].offsetTop
-        let touchY = e.touches[0].clientY - 79
-        let index = Math.floor((touchY - startY) / 20)
-        if (index >= 0 && index <= this.letters.length) {
-          this.$emit('change', this.letters[index])
+        if (this.timer) {
+          clearTimeout(this.timer)
         }
+        this.timer = setTimeout(() => {
+          let touchY = e.touches[0].clientY - 79
+          let index = Math.floor((touchY - this.startY) / 20)
+          if (index >= 0 && index <= this.letters.length) {
+            this.$emit('change', this.letters[index])
+          }
+        }, 16)
       }
     },
     handleTouchEnd () {
@@ -59,18 +68,22 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-@import '~styles/varibles.styl'
-.list
-  display: flex
-  flex-direction: column
-  justify-content: center
-  position: absolute
-  top: 1.58rem
-  right: 0
-  bottom: 0
-  width: .4rem
-  .item
-    line-height: .4rem
-    text-align: center
-    color: $bgColor
+@import '~styles/varibles.styl';
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 1.58rem;
+  right: 0;
+  bottom: 0;
+  width: 0.4rem;
+
+  .item {
+    line-height: 0.4rem;
+    text-align: center;
+    color: $bgColor;
+  }
+}
 </style>
