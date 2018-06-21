@@ -22,6 +22,7 @@
 </template>
 
 <script>
+import BScroll from 'better-scroll'
 export default {
   name: 'CitySearch',
   props: {
@@ -65,6 +66,9 @@ export default {
     handleCityClick () {
 
     }
+  },
+  mounted () {
+    this.scroll = new BScroll(this.$refs.search)
   }
 }
 </script>
