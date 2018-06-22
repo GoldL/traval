@@ -38,7 +38,9 @@ module.exports = {
       '@': resolve('src'),
       'styles': resolve('src/assets/styles'),
       'components': resolve('src/components'),
-      'pages': resolve('src/pages')
+      'pages': resolve('src/pages'),
+      'common': resolve('src/common')
+      
     }
   },
   module: {
