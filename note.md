@@ -2,29 +2,29 @@
 - [viewport](https://www.cnblogs.com/2050/p/3877280.html)
 - reset.css
 - 1像素边框
-- fastclick
+- [fastclick](https://www.jianshu.com/p/05b142d84780)
 - iconfont
-- git
+- git的简单实用
 ``` bash
-git clone url // 克隆项目
-git status // 查看当前状态和哪些文件被修改过
-git diff // 查看修改内容
-git add . // 添加到本地缓存
-git commit -m 'project init' // 提交本地 
-git push // 提交线上
-git pull // 拉分支
-git checkout inder-swper // 切换
-git merge origin/index-swiper // 合并分支
-git branch // 查看分支
+git clone url # 克隆项目
+git status # 查看当前状态和哪些文件被修改过
+git diff # 查看修改内容
+git add . # 添加到本地缓存
+git commit -m 'project init' # 提交本地 
+git push # 提交线上
+git pull # 拉分支
+git checkout inder-swper # 切换
+git merge origin/index-swiper # 合并分支
+git branch # 查看分支
 ``` 
 - [npm切换到淘宝](https://blog.csdn.net/quuqu/article/details/64121812)
-``` basg
-// 临时使用
+``` bash
+# 临时使用
 npm --registry https://registry.npm.taobao.org install express
-// 永久使用
+# 永久使用
 npm config set registry https://registry.npm.taobao.org
 ```
-- vue-awesome-swiper
+- [vue-awesome-swiper](https://github.com/surmon-china/vue-awesome-swiper)
 - [占位宽高](https://segmentfault.com/a/1190000004231995)
 ``` css
 overfolw: hidden
@@ -68,7 +68,7 @@ handleTouchEnd () {
 ```
 - 性能优化
 ``` js
-设置一个timer
+// 设置一个timer
 if (this.timer) {
   clearTimeout(this.timer)
 }
@@ -92,7 +92,7 @@ if (this.lastcity !== this.city) {
   overflow inherit
 ```
 - vue动画
-``` js
+``` html
 <template>
   <transition>
     <slot></slot>
@@ -114,6 +114,7 @@ export default {
 ```
 - header渐隐渐现
 ``` js
+// 关键代码
 methods: {
     handleScroll () {
       const top = document.documentElement.scrollTop
