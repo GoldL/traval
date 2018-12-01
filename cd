@@ -1,0 +1,176 @@
+[33mcommit 521c575ec05e0926827786817683b09a7ac9ae8d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/detail[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mdetail[m[33m)[m
+Author: GoldL <136895062@qq.com>
+Date:   Fri Jun 22 16:13:02 2018 +0800
+
+    finish detail
+
+[33mcommit 13a7b2412a88bf6a61bb95ed2076d07c8eacae01[m
+Author: iGolden <136895062@qq.com>
+Date:   Thu Jun 21 23:39:45 2018 +0800
+
+    detail init
+
+[33mcommit d2e9e6dd58f494d5e8efb62adbaf9fea085e2324[m[33m ([m[1;31morigin/keep-alive[m[33m, [m[1;32mkeep-alive[m[33m)[m
+Author: GoldL <136895062@qq.com>
+Date:   Thu Jun 21 15:04:34 2018 +0800
+
+    use keep-alive
+
+[33mcommit daa1a874f1c018301ed0a88fa4d45a9d339ab89a[m[33m ([m[1;31morigin/vuex[m[33m, [m[1;32mvuex[m[33m)[m
+Author: GoldL <136895062@qq.com>
+Date:   Thu Jun 21 11:34:14 2018 +0800
+
+    add vuex
+
+[33mcommit 8df1317a1de7f6e9622a960d5cd3b597e829621b[m[33m ([m[1;31morigin/city-search-logic[m[33m, [m[1;32mcity-search-logic[m[33m)[m
+Author: GoldL <136895062@qq.com>
+Date:   Thu Jun 21 10:23:50 2018 +0800
+
+    add BScroll
+
+[33mcommit 28578a933afc86db388fe9c953298bef0a9aeed8[m
+Author: GoldL <136895062@qq.com>
+Date:   Thu Jun 21 10:17:26 2018 +0800
+
+    finish city
+
+[33mcommit 469915c3cd1f1ee430821fb411ae46bb30f967bf[m
+Author: iGolden <136895062@qq.com>
+Date:   Wed Jun 20 23:57:34 2018 +0800
+
+    city-search-logic
+
+[33mcommit 374e0c769e1fc4893f3709252f35325ea409f182[m
+Author: iGolden <136895062@qq.com>
+Date:   Wed Jun 13 23:29:57 2018 +0800
+
+    optimize city
+
+[33mcommit a66c3bafe6b22c7dede53f81d02ff4a014f9eee8[m[33m ([m[1;31morigin/city-components[m[33m)[m
+Author: iGolden <136895062@qq.com>
+Date:   Fri Jun 8 22:22:48 2018 +0800
+
+    city-components
+
+[33mcommit 606e20b8f0b0d75b126d20c8491f56bfed63de33[m[33m ([m[1;31morigin/city-list[m[33m)[m
+Author: iGolden <136895062@qq.com>
+Date:   Fri Jun 8 21:33:47 2018 +0800
+
+    city-axjax
+
+[33mcommit ef5de92a4196df4de6760e1d14ad3cc79822320b[m
+Author: iGolden <136895062@qq.com>
+Date:   Fri Jun 8 01:11:33 2018 +0800
+
+    add city-list
+
+[33mcommit 00b0f0a243dfb6bafe0f1e6a4c8692f94dabfae1[m[33m ([m[1;31morigin/city-router[m[33m)[m
+Author: iGolden <136895062@qq.com>
+Date:   Fri Jun 8 00:25:42 2018 +0800
+
+    add city-header
+
+[33mcommit a04b32791e94ca584f5015f91c790482402b7f75[m[33m ([m[1;31morigin/index-axjax[m[33m)[m
+Author: iGolden <136895062@qq.com>
+Date:   Thu Jun 7 00:29:21 2018 +0800
+
+    index finish
+
+[33mcommit c37964a343ae507a05e5ad9c73a1013e24432994[m
+Merge: fe0217d a0112db
+Author: iGolden <136895062@qq.com>
+Date:   Wed Jun 6 23:48:35 2018 +0800
+
+    change
+
+[33mcommit a0112dba46f363c5bef8bcd13e41082e28cacaf0[m[33m ([m[1;31morigin/index-recommend[m[33m)[m
+Author: iGolden <136895062@qq.com>
+Date:   Wed Jun 6 23:40:29 2018 +0800
+
+    add weekend
+
+[33mcommit fe0217d13be1843243eacf0a693452f47f6975d4[m
+Merge: 89f4473 3f7a938
+Author: iGolden <136895062@qq.com>
+Date:   Wed Jun 6 00:47:27 2018 +0800
+
+    recommend
+
+[33mcommit 3f7a93862dfe8994a1020ad1324b30addccd4a6a[m
+Author: iGolden <136895062@qq.com>
+Date:   Wed Jun 6 00:36:30 2018 +0800
+
+    recommend
+
+[33mcommit 89f447367d8eb563c85b4b8697bb3894a98e6b9e[m
+Author: iGolden <136895062@qq.com>
+Date:   Tue Jun 5 23:45:40 2018 +0800
+
+    delete logo
+
+[33mcommit c5b8ef01577d8f0a2402f125d351c61a33ba9bae[m
+Merge: c41d884 c23db21
+Author: 林金鼎 <linjinding@MacBook-Pro.local>
+Date:   Fri May 25 00:43:57 2018 +0800
+
+    Merge remote-tracking branch 'origin/index-icons'
+
+[33mcommit c23db2188cbbdf3ab211ef02307d6339761dbb0b[m[33m ([m[1;31morigin/index-icons[m[33m)[m
+Author: 林金鼎 <linjinding@MacBook-Pro.local>
+Date:   Fri May 25 00:41:46 2018 +0800
+
+    icons
+
+[33mcommit e8cd6be7139ba66fe5bfb461eb9c285a7a3d5537[m
+Author: 林金鼎 <linjinding@MacBook-Pro.local>
+Date:   Fri May 25 00:13:34 2018 +0800
+
+    icons-style
+
+[33mcommit c41d88491f484b74b25d5cc04538b67debff0b4e[m
+Author: 林金鼎 <linjinding@MacBook-Pro.local>
+Date:   Thu May 24 22:40:25 2018 +0800
+
+    change css
+
+[33mcommit 4943865613e1cc680bd62b85a7813585d98d91de[m[33m ([m[1;31morigin/index-swiper[m[33m)[m
+Author: 林金鼎 <linjinding@MacBook-Pro.local>
+Date:   Thu May 24 22:26:18 2018 +0800
+
+    swiper
+
+[33mcommit 0205056bcfe2ea47b7330b7d63ad3d058727bd12[m
+Author: 林金鼎 <linjinding@MacBook-Pro.lan>
+Date:   Thu May 24 20:18:15 2018 +0800
+
+    optimized
+
+[33mcommit 183dfabcc2bfdfe539d396257957641d8266791a[m
+Author: 林金鼎 <linjinding@MacBook-Pro.lan>
+Date:   Thu May 24 20:14:23 2018 +0800
+
+    homeHeader
+
+[33mcommit bd6b705253f203ed0557c4386f8b5313b6b3e3ef[m
+Author: GoldL <136895062@qq.com>
+Date:   Thu May 24 09:08:54 2018 +0800
+
+    add iconfont
+
+[33mcommit 2d227852fc4f4081617e5552c7c76c4aafdd61e0[m
+Author: 林金鼎 <linjinding@MacBook-Pro.local>
+Date:   Wed May 23 22:21:30 2018 +0800
+
+    project init
+
+[33mcommit 1aff679d9b57c107ca1b2f357c360afdea104817[m
+Author: 林金鼎 <linjinding@MacBook-Pro.local>
+Date:   Wed May 23 21:49:06 2018 +0800
+
+    project init
+
+[33mcommit ecfdf1533c736eee4ba34d48550887a551c6f15c[m
+Author: iGolden <136895062@qq.com>
+Date:   Mon May 21 23:19:02 2018 +0800
+
+    Initial commit
